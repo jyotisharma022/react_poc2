@@ -1,0 +1,182 @@
+.form-container {
+  -webkit-box-shadow: 0px 0px 14px #e7e7e7;
+          box-shadow: 0px 0px 14px #e7e7e7;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.form-container ul.social-network.table-circle li {
+  margin: 0 3px;
+}
+
+.form-container ul.social-network.table-circle li a {
+  background-color: #e7e7e7;
+}
+
+.form-container ul.social-network.table-circle li a i {
+  color: #2091bd;
+  font-weight: 100;
+}
+
+.form-container .staySignin {
+  margin-bottom: 18px;
+  position: relative;
+}
+
+.form-container .staySignin input[type='checkbox'] {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.form-container .staySignin input[type='checkbox'] + label {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  margin: 0;
+  cursor: pointer;
+  color: #2091bd;
+}
+
+.form-container .staySignin input[type='checkbox'] + label::before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  border: 1px solid #6e6e6e;
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-transition: background-color ease 0.4s;
+  transition: background-color ease 0.4s;
+}
+
+.form-container .staySignin input[type='checkbox']:checked + label {
+  color: #6e6e6e;
+}
+
+.form-container .staySignin input[type='checkbox']:checked + label::before {
+  background-image: url("./../../imgs/tick.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px auto;
+  background-color: #6e6e6e;
+  border-color: #6e6e6e;
+}
+
+.form-container .has-search .form-control {
+  padding-left: 30px;
+  border-radius: 30px;
+  padding: 5px 10px 5px 30px;
+  height: inherit;
+  line-height: normal;
+  font-size: 13px;
+  background: #e7e7e7;
+  border: 1px solid #e7e7e7;
+}
+
+.form-container .has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 16px;
+  height: 16px;
+  line-height: normal;
+  text-align: center;
+  pointer-events: none;
+  color: #8f8f8f;
+  top: 6px;
+  left: 10px;
+}
+
+.form-container .table_outer table .form-group {
+  margin-bottom: 0;
+}
+
+.form-container .table_outer table th {
+  vertical-align: middle;
+  position: relative;
+  border: 0;
+  text-align: left;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 600;
+}
+
+.form-container .table_outer table th.sort:after {
+  content: "\f0dc";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  position: absolute;
+  right: 12px;
+  top: 15px;
+  color: #049fc4;
+}
+
+.form-container .table_outer table .has-search .form-control {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  padding: 5px 12px;
+  box-shadow: none;
+  font-size: 13px;
+}
+
+.form-container .table_outer table td {
+  border-top: 0;
+  vertical-align: middle;
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 13px;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-container .table_outer table td span.check-circle {
+  background-color: #00a657;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.form-container .table_outer table td span.check-circle:before {
+  content: '';
+  position: absolute;
+  background: url("./../../imgs/tick.png");
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 12px auto;
+}
+
+.form-container .table_outer table td .form-control {
+  line-height: normal;
+  height: auto;
+  padding: 5px 12px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 13px;
+}
+
+.form-container .table_outer table td .customDropdown {
+  line-height: normal;
+  height: auto;
+  padding: 5px 12px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 12px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=PropertyContact.css.map */

@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+       "property_name": "renaissance center",
+       "property_benefits": ["renaissance center - T100"]
+    },
+    {
+        "id": 2,
+        "property_name": "edison drive",
+        "property_benefits": [
+            "175 CHASTAIN-SPCL BILLING",
+            "175 chastain meadows court",
+            "1820-1920 international blvd",
+            "1870 INTL-SPCL BILLING"
+                            ]
+     },
+     {
+        "id": 3,
+        "property_name": "10701 NATIONS FORD",
+        "property_benefits": [
+            "4611 Sharon Road",
+            "Morehead Square"
+        ]
+     },
+     {
+        "id": 4,
+        "property_name": "renaissance center 04",
+        "property_benefits": ["renaissance center - T100"]
+     },
+     {
+        "id": 5,
+         "property_name": "edison drive 05",
+         "property_benefits": [
+            "175  BILLING",
+            "chastain meadows court",
+            "international blvd",
+            "1870 BILLING"
+                             ]
+      },
+      {
+        "id": 6,
+         "property_name": "10701 FORD 06",
+         "property_benefits": [
+            "4611",
+            "Morehead Square"
+        ]
+    }
+]
